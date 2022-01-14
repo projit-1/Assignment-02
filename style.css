@@ -1,0 +1,21 @@
+*
+body{ margin: 0; padding: 0; max-width: 1200px;} 
+.navbar{background-color: #E02C6D;}
+.influencer{ display: grid; 
+grid-template-columns: repeat(2, 1fr); width: 90%; margin: 5px 0px; padding: 5px 50px; justify-content: center; align-items: center;}
+.menu ul { list-style: none;}
+.menu ul li{ display: inline-flex;}
+.menu ul li a{ text-decoration: none; color: black; margin-right: 15px; padding: 10px 10px;} 
+
+
+/* Header Section Style */
+.header{display: grid; grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center; margin: 10px 40px;}
+.header-left{display: flex; flex-direction: column; justify-content: center; height: 415px; width: 440px;}
+.button{width: 120px; height: 20px; background-color: #E02C6D; border-radius: 20px; color: #fff;}
+.header-right{background-color: darkgray; border-radius: 50%;}
+
+/* Logo Section style */
+.hrup{ width: 90%; height: 1px; color: darkgray; }
+.logo{display: grid; grid-template-columns: repeat(7, 1fr);
+justify-content: center; justify-items: center; margin: 20px 30px;}
+.hrdown{ width: 90%; height: 1px; color: darkgray; }
