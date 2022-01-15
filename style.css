@@ -93,31 +93,50 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
 
 
        
-        @media only screen and (max-width: 688px){
+        @media only screen and (max-width: 576px){
             .navbar{width: 100%;}
 
-             .influencer{width: 100%;}
+             /* .influencer{width: 100%;}
              .head-cointainer{width: 100%;}
              .logo-cointainer{width:100%;}
              .main-cointainer{width: 100%;}
              .extra-cointainer{width: 100%;}
-             .footer-cointainer{width: 100%;}
+             .footer-cointainer{width: 100%;} */
 
              .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(1, 1fr); justify-content: center; align-items: center;}
              .logo{grid-template-columns:repeat(2,1fr)}
+             .navbar .influencer{display: none;}
+             .product-detail img{min-width: 100%;} 
+             .header-left{min-width: 100%;}
+             .header-right img{min-width: 100%;}
+             .love-card{min-width: 100%;}
+             .information{min-width: 100%;}
             
-     
-             /* tablate-media */
-             @media  only screen and (min-width: 688px) and (max-width: 992px){
-     
-                .navbar{width: 100%;}
-                .influencer{width: 100%;}
-                .head-cointainer{width: 100%;}
-                .logo-cointainer{width:100%;}
-                .main-cointainer{width: 100%;}
-                .extra-cointainer{width: 100%;}
-                .footer-cointainer{width: 100%;}
 
-             .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center;}
-             .logo{grid-template-columns:repeat(3,1fr);}
+            
+             /* tablate-media */
+             @media  only screen and (min-width: 577px) and (max-width: 768px){
+     
+                .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center;}
+                .logo{grid-template-columns:repeat(3,1fr)}
+                .navbar .influencer{display: none;}
+                .product-detail img{min-width: 100%;} 
+                .header-left{min-width: 100%;}
+                .header-right img{min-width: 100%;}
+                .love-card{min-width: 100%;}
+                .information{min-width: 100%;}
+
+                /* for pc or dexktop  */
+                 /* tablate-media */
+             @media  only screen and (min-width: 789px) and (max-width: 1400px){
+     
+                .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(3, 1fr); justify-content: center; align-items: center;}
+                .logo{grid-template-columns:repeat(7,1fr)}
+                .product-detail img{min-width: 100%;} 
+                .header-left{min-width: 100%;}
+                .header-right img{min-width: 100%;}
+                .love-card{min-width: 100%;}
+                .information{min-width: 100%;}
+
+
         
