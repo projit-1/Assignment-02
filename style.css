@@ -1,6 +1,11 @@
 *
-body{ margin: 0; padding: 0; width: 900px ; font-family: 'Poppins', sans-serif; background-color: #AAAAAA;;} 
-.navbar{width: 1000px;  background-color: #E02C6D; }
+body{ margin: 0;
+     padding: 0; 
+     width: 900px ;
+      font-family: 'Poppins', sans-serif; 
+      background-color: #AAAAAA;;} 
+.navbar{width: 1000px; 
+     background-color: #E02C6D; }
 
 
 .influencer{ display: grid; 
@@ -117,18 +122,18 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
              /* tablate-media */
              @media  only screen and (min-width: 577px) and (max-width: 768px){
      
-                .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center;}
+                .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(1, 1fr); justify-content: center; align-items: center;}
                 .logo{grid-template-columns:repeat(3,1fr)}
                 .navbar .influencer{display: none;}
-                .product-detail img{min-width: 100%;} 
-                .header-left{min-width: 100%;}
-                .header-right img{min-width: 100%;}
-                .love-card{min-width: 100%;}
-                .information{min-width: 100%;}
+                .product-detail img{width: 100%;} 
+                .header-left{width: 100%;}
+                .header-right img{width: 100%;}
+                .love-card{width: 100%;}
+                .information{width: 100%;}
 
                 /* for pc or dexktop  */
-                 /* tablate-media */
-             @media  only screen and (min-width: 789px) and (max-width: 1400px){
+               
+             @media  only screen and (min-width: 769px) and (max-width: 1400px){
      
                 .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(3, 1fr); justify-content: center; align-items: center;}
                 .logo{grid-template-columns:repeat(7,1fr)}
@@ -137,6 +142,3 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
                 .header-right img{min-width: 100%;}
                 .love-card{min-width: 100%;}
                 .information{min-width: 100%;}
-
-
-        
