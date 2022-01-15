@@ -1,5 +1,5 @@
 *
-body{ margin: 0; padding: 0; max-width: 1200px; font-family: 'Poppins', sans-serif; background-color: #AAAAAA;;} 
+body{ margin: 0; padding: 0; width: 900px ; font-family: 'Poppins', sans-serif; background-color: #AAAAAA;;} 
 .navbar{background-color: #E02C6D;}
 .influencer{ display: grid; 
 grid-template-columns: repeat(2, 1fr ); width: 100%; margin: 5px 0px; padding: 5px 50px; justify-content: center; align-items: center;}
@@ -11,11 +11,11 @@ grid-template-columns: repeat(2, 1fr ); width: 100%; margin: 5px 0px; padding: 5
 
 
 /* Header Section Style */
-.header{display: grid; grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center; margin: 10px 40px;}
+.header{width: 1000px; display: grid; grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center; margin: 10px 40px;}
 .header-left{display: flex; flex-direction: column; justify-content: center; height: 415px; width: 440px;}
 .header-left h1{color: #3A3A3A;}
 .button{width: 120px; height: 20px; background-color: #E02C6D; border-radius: 20px; color: #fff;}
-.header-right{background-color: darkgray; border-radius: 50%;}
+.header-right img{width: 440px; }
 
 
 /* Logo Section style */
@@ -40,8 +40,15 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
 .rating-satr{display: grid; grid-template-columns:repeat(5, 1fr); color: gold;}
 .populer-collection .button{ }
 
+
+/* extra-section-style */
+.extar-section{width: 950px; margin: 10px 10px; padding: 10px 10px; background-color: hotpink; }
+.valentaine{display: grid; grid-template-columns: repeat(2, 1fr);}
+.get-offer {text-align: center;}
+.extra-headline{background-color: #E02C6D; width: 300px; border-radius: 5px; color: floralwhite;}
+
 /* footer section style */
-.footer{ display: flex; flex-direction: column; width: 100%; height: 200px; background-color: #0A0826; justify-content: center; align-items: center;}
+.footer{ display: flex; flex-direction: column; width: 1000px; height: 150px; background-color: #0A0826; justify-content: center; align-items: center;}
 .footer h3 {color: honeydew; margin-top: 5px; margin-bottom: 2px;}
 .footer .Copyright{color: honeydew; margin-top: 5px; margin-bottom: 2px;}
 .icon{display: grid; grid-template-columns: repeat(4,1fr); padding: 0 auto;
