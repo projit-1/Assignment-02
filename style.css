@@ -1,6 +1,8 @@
 *
 body{ margin: 0; padding: 0; width: 900px ; font-family: 'Poppins', sans-serif; background-color: #AAAAAA;;} 
 .navbar{width: 1000px;  background-color: #E02C6D; }
+
+
 .influencer{ display: grid; 
 grid-template-columns: repeat(2, 1fr ); width: 900px; margin: 5px 10px; padding: 5px 10px; justify-content: center; align-items: center;}
 
@@ -13,6 +15,8 @@ grid-template-columns: repeat(2, 1fr ); width: 900px; margin: 5px 10px; padding:
 
 
 /* Header Section Style */
+
+
 .header{width: 900px; display: grid; grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center; margin: 10px 40px;}
 .header-left{display: flex; flex-direction: column; justify-content: center; height: 415px; width: 440px;}
 .header-left h1{color: #3A3A3A;}
@@ -49,8 +53,9 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
 
 /* extra-section-style */
 .extar-section{width: 950px; margin: 30px 10px; padding: 10px 10px; background-color: hotpink; }
-.extra-headline {align-items: center;}
-.extra-headline h3 { text-align: center; align-items: center;}
+.extra-headline {align-items: center; padding: 0px auto
+    ; margin-left: 340px;}
+.extra-headline h3 { text-align: center; align-items: center; padding: 0px auto; }
 .valentaine{display: grid; grid-template-columns: repeat(2, 1fr);}
 
 .extra-headline{background-color: #E02C6D; width: 300px; border-radius: 5px; color: floralwhite;}
@@ -68,22 +73,43 @@ justify-content: center; justify-items: center; margin: 20px 30px;}
    color: ivory; justify-content: center; align-items: center; width: 100px;
     }
 
+/* animation-style */
+.btn a{
+    position: relative; color: #f5f5f5; height: 70px; width: 400px; display: block;  text-align: center;  border-radius: 10px;  text-decoration: none;
+    background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  }
+  .btn a:hover{ animation: rotate 0.4s linear infinite; }
+  @keyframes rotate {
+    100%{
+      filter: hue-rotate(-360deg) }}
+  .btn a span{ height: 88%;  width: 96%;  background: rgb(91, 104, 98);
+    display: block;   position: absolute;  top: 50%;  left: 50%;
+    border-radius: 6px;  line-height: 62px;  font-size: 20px;
+    transform: translate(-50%, -50%);
 
 
         /* ============meida-quaries============== */
         @media only screen and (max-width: 688px){
-            .navbar{width: 100%;}
-             .container{width: 100%;}
-             .latest-courses{width: 100%;}
-             .players, .blog, .courses{ grid-template-columns: repeat(1, 1fr);}
-             .player, .blog{ flex-direction: column} ;}
+
+             .influencer{width: 100%;}
+             .header{width: 100%;}
+             .logo{width:100%;}
+             .product{width: 100%;}
+             .valentaine{width: 100%;}
+
+             .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(1, 1fr);}
+             .logo{grid-template-columns:repeat(2,1fr)}
+            
      
              /* tablate-media */
              @media  only screen and (min-width: 688px) and (max-width: 992px){
      
-                .navbar{width: 100%;}
-                 .container{width: 100%;}
-                 .latest-courses{width: 100%;}
-                 .players, .blog, .courses{ grid-template-columns: repeat(2, 1fr);}
-                 .player, .blog{ flex-direction: column}
-                  ;}
+            .influencer{width: 100%;}
+             .header{width: 100%;}
+             .logo{width:100%;}
+             .product{width: 100%;}
+             .valentaine{width: 100%;}
+
+             .influencer, .header, .product, .valentaine{ grid-template-columns: repeat(2, 1fr);}
+             .logo{grid-template-columns:repeat(3,1fr)}
+            
